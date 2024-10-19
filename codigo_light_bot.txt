@@ -1,0 +1,80 @@
+Class Juego{
+
+
+//Atributos
+ArregloDeAcciones[12]MetodoMain;
+ArregloDeAcciones[8]F1;
+ArregloDeAcciones[8]F2;
+Robot robo;
+
+//Metodos:   
+    a="Avanzar";
+    gi="Girar Izquierda";
+    gd="Girar Derecha";
+    s="Saltar";
+    e="Encender";
+    
+    
+    robo.iterarYejecutarMetodoMain(Nivel);
+    if(todasLasLucesPrendidas=true){
+        robo.desbloquearNivel();
+        break;
+    }
+
+Nivel_1={
+MetodoMain=[a,a,e];
+F1=[];
+F2=[];
+}
+
+Nivel_2={
+MetodoMain=[gd,a,gi,a,a,a,a,gi,a,e];
+F1=[];
+F2=[];
+}
+
+Nivel_3={
+MetodoMain=[ a,s,s,a,gi,f1,f1,f1];
+F1=[e,a];
+F2=[];
+}
+
+Nivel_4={
+MetodoMain=[a,s,s,a,gd,a,a,a,a,e];
+F1=[];
+F2=[];
+}
+
+
+Nivel_5={
+MetodoMain=[s,f1,a,f1,f2,e];
+F1=[a,a,gi];
+F2=[e,e,e];
+}
+
+
+Nivel_6={
+MetodoMain=[a,F1,gd,F1,e,s,gd,F2,gd,gd,F2,F2];
+F1=[s,s];
+F2=[a,a,a,e];
+}
+
+
+Nivel_7={
+MetodoMain=[F1,gd,a,e,gd,F1];
+F1=[F2,e,F2];
+F2=[a,e,a,e,a,e,a];
+}
+
+
+Nivel_8={
+MetodoMain=[s,a,e,F1,F2,F2,gd,F1,gd,F1];
+F1=[a,a,e];
+F2=[gd,F1,F1];
+}
+
+Nivel_9={
+MetodoMain=[s,gi,s,F2];
+F1=[e,s,e,a,e,s,gd];
+F2=[F1];
+}
