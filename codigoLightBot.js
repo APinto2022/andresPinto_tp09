@@ -21,7 +21,7 @@ Robot robo;
     e="Encender";
     
 // El juego comienza cuando el Robot ejecuta la primer instrucciòn del Metodo Main:
- robo.iterarYejecutarMetodoMain(Nivel);
+ robo.ejecutarMetodoMain(Nivel);
 
 //Cuando prende todas las luces del nivel actual, se desbloquea el Nivel y podrà jugar el siguiente
 if(todasLasLucesPrendidas=true){
